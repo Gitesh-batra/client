@@ -1,0 +1,62 @@
+.Categories {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+.Categories .col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Categories .col-l {
+  flex: 2;
+}
+.Categories .row {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.Categories .row button {
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  min-width: 100px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(245, 245, 245, 0.9);
+  border: 2px solid maroon;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+.Categories .row button .link {
+  font-weight: 900;
+  color: rgb(181, 33, 33);
+  -webkit-text-decoration: underline transparent;
+          text-decoration: underline transparent;
+}
+.Categories .row button:hover {
+  background-color: #fff;
+}
+.Categories img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.Categories img:hover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Categories.css.map */

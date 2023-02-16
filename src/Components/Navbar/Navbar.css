@@ -1,0 +1,85 @@
+.navbar {
+  /* position: absolute; */
+  width: 100%;
+  z-index: 144;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.038);
+  color: white;
+  letter-spacing: 3px;
+}
+.navbar .wrapper {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .wrapper #name {
+  font-family: cursive;
+  font-weight: 800;
+  font-size: larger;
+}
+.navbar .wrapper .link {
+  color: white;
+  text-decoration: none;
+}
+.navbar .wrapper .item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.navbar .wrapper .left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navbar .wrapper .center {
+  font-size: 30px;
+}
+.navbar .wrapper .center #name {
+  align-items: center;
+}
+.navbar .wrapper .right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navbar .wrapper .right .icons {
+  display: flex;
+  gap: 15px;
+  color: #777;
+  cursor: pointer;
+}
+.navbar .wrapper .right .icons .cartIcon {
+  position: relative;
+}
+.navbar .wrapper .right .icons .cartIcon span {
+  font-size: 12px;
+  width: 10px;
+  height: 10px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: white;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  right: -10px;
+  top: -10px;
+}
+
+.navbar:hover {
+  background-color: rgba(40, 22, 22, 0.896);
+  transition: 0.5s;
+}
+.navbar:hover .link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.navbar:hover .wrapper .left .item {
+  color: lightgray;
+  cursor: pointer;
+}
+.navbar:hover .wrapper .right .icons {
+  color: beige;
+}/*# sourceMappingURL=Navbar.css.map */
