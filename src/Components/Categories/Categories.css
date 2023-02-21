@@ -23,7 +23,6 @@
   padding: 10px;
   position: absolute;
   min-width: 100px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   top: 0;
